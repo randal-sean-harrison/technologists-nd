@@ -1,0 +1,126 @@
+:root {
+  --alice-blue: aliceblue;
+  --bright-blue: #007bff;
+  --nd-blue: #20364c;
+  --chocolate: #D2691E;
+  --graphite: #506578;
+  --light-coral: rgba(240, 128, 128, 1);
+  --light-slate: #e6e8f1;
+  --silver: silver;
+  --slate-gray: lightslategray;
+  --trench-blue: #406885;
+  --white: white;
+  --black: #333;
+}
+
+/* Root styles ----------------------- */
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #fafafa;
+  color: var(--graphite);
+  box-sizing: border-box;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* colors ---------------------------------- */
+.chocolate {
+  color: var(--chocolate);
+}
+
+.trench-blue {
+  color: var(--trench-blue);
+}
+
+/* backgrounds --------------------------- */
+.bg-graphite {
+  background: var(--graphite);
+}
+
+.bg-trench-blue {
+  background: var(--trench-blue);
+}
+
+.navbar-dark {
+  background: var(--nd-blue) !important;
+}
+
+.text-larger {
+  font-size: 150%;
+  font-weight: 300;
+}
+
+.mt-10 {
+  margin-top: 5rem;
+}
+
+/* Back to top button ------------------------- */
+#topper {
+  display: none;
+  position: fixed;
+  bottom: 40%;
+  right: 0;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: var(--bright-blue);
+  color: var(--white) !important;
+  padding: 8px 4px 10px 4px;
+  border-radius: 2px 0 0 2px;
+  font-size: 1rem;
+  cursor: pointer !important;
+}
+
+#topper:hover {
+  background-color: var(--bright-blue);
+  color: var(--white);
+}
+
+/* Location buttons ------------------ */
+#location-buttons .btn.active {
+  background: var(--trench-blue);
+}
+
+#location-buttons .btn.active::before {
+  content: "✓ ";
+  color: aliceblue;
+}
+
+/* Nav menu ---------------------------- */
+@media screen and (min-width: 1000px) {
+
+  /* Nav menu underline */
+  .nav-item.active {
+    border-bottom: 3px solid #cccccc;
+    /* border-top: 3px solid white; */
+  }
+}
+
+/* Tooltips ------------------------ */
+.tooltip .tooltip-inner {
+  color: var(--white);
+  font-size: .85rem;
+  padding: .35rem;
+  background: var(--trench-blue);
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+  display: none;
+}
+
+.tooltip.bs-tooltip-left .arrow:before {
+  display: none;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+  display: none;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+  display: none;
+}

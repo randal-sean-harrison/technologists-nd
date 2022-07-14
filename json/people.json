@@ -1,0 +1,86 @@
+{
+  "people": [
+    {
+      "name": "Randy Harrison",
+      "title": "Emerging Technologies Librarian",
+      "department": "Hesburgh Libraries",
+      "bio-link": "https://randalseanharrison.com",
+      "bio-link-target": "_blank",
+      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Steve Varela",
+      "title": "Director, Teaching & Learning Technologies",
+      "department": "",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Randy Harrison",
+      "title": "Author",
+      "department": "",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Randy Harrison",
+      "title": "Author",
+      "department": "",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Randy Harrison",
+      "title": "Author",
+      "department": "",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Randy Harrison",
+      "title": "Author",
+      "department": "",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Randy Harrison",
+      "title": "Author",
+      "department": "",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Randy Harrison",
+      "title": "Author",
+      "department": "",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Randy Harrison",
+      "title": "Author",
+      "department": "",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+
+  ]
+}

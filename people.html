@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <title>Technologists</title>
+</head>
+
+<body id="top">
+
+  <!-- Header -->
+  <div id="site-header"></div>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-2 text-white"><strong>People</strong></h1>
+      <p class="text-larger text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam.</p>
+    </div>
+  </div>
+
+  <div class="container p-5">
+
+      <p class="display-4 mt-2 chocolate"><strong>Who we are</strong></p>
+      <p class="text-larger"><strong class="trench-blue">The Technologists</strong> is an informal group established to gather people from across campus working at the nexus of technology and instruction. We meet several times during the yer to share
+        relevant campus
+        news, resources,
+        and updates on projects which might benefit from fellowship and the sharing of resources.
+      </p>
+      <div class="row mt-10">
+        <div class="col-sm-6 col-md-4">
+          <div class="card"><img src="img/img1.jpg" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h4><strong class="trench-blue">Resources</strong></h4>
+              <p>Learn to navigate the web of resources on and off campus, including roles, spaces and places, and technologies</p>
+
+              <p class="mt-4 text-center"><a type="button" class="btn btn-primary text-light"><i class="fa-solid fa-eye fa-fw mr-2"></i>View</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card"><img src="img/img2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4><strong class="trench-blue">People</strong></h4>
+              <p>Discover opportunities for working together and exploring how your projects might impact or benefit others' projects</p>
+
+              <p class="mt-4 text-center"><a type="button" class="btn btn-primary text-light"><i class="fa-solid fa-eye fa-fw mr-2"></i>View</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card"><img src="img/img3.jpg" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h4><strong class="trench-blue">Events</strong></h4>
+              <p>Build a strong community of folks through food and fellowship, including lunches, resource tours, and other events</p>
+
+              <p class="mt-4 text-center"><a type="button" class="btn btn-primary text-light"><i class="fa-solid fa-eye fa-fw mr-2"></i>View</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+  </div>
+  <!-- main container -->
+
+  <!-- Footer -->
+  <div id="site-footer" class="container-fluid px-0"></div>
+
+  <a role="button" id="topper" class="btn scroll-link" href="#top"><i class="fas fa-fw fa-2x fa-angle-up" aria-hidden="true"></i></a>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script src="js/scripts.js"></script>
+
+  <script>
+    $(document).ready(function() {
+
+      // Load Header
+      $("#site-header").load("header.html", function() {
+        console.log("Header loaded.");
+        $("#home").removeClass("active");
+        $("#people").addClass("active");
+      });
+    });
+  </script>
+
+</body>
+
+</html>
