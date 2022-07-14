@@ -13,7 +13,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
 
   <!-- Fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"
@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="css/styles.css">
 
 
-  <title>Technologists</title>
+  <title>Technologists @ ND</title>
 </head>
 
 <body id="top">
@@ -34,53 +34,53 @@
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="display-2 text-white"><strong>People</strong></h1>
-      <p class="text-larger text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam.</p>
+      <p class="text-larger text-light">Who we are, what we do, and how to get ahold of us.</p>
     </div>
   </div>
 
-  <div class="container p-5">
+  <div class="container mt-5">
 
-      <p class="display-4 mt-2 chocolate"><strong>Who we are</strong></p>
-      <p class="text-larger"><strong class="trench-blue">The Technologists</strong> is an informal group established to gather people from across campus working at the nexus of technology and instruction. We meet several times during the yer to share
-        relevant campus
-        news, resources,
-        and updates on projects which might benefit from fellowship and the sharing of resources.
-      </p>
-      <div class="row mt-10">
-        <div class="col-sm-6 col-md-4">
-          <div class="card"><img src="img/img1.jpg" class="card-img-top" alt="...">
-            <div class="card-body ">
-              <h4><strong class="trench-blue">Resources</strong></h4>
-              <p>Learn to navigate the web of resources on and off campus, including roles, spaces and places, and technologies</p>
-
-              <p class="mt-4 text-center"><a type="button" class="btn btn-primary text-light"><i class="fa-solid fa-eye fa-fw mr-2"></i>View</a></p>
+    <div class="col-sm-12">
+      <form id="search-box" class="shadow-sm">
+        <div class="form-group">
+          <div class="input-group border-0">
+            <div class="input-group-prepend">
+              <span class="input-group-text border-0"><i class="fa-solid fa-search fa-fw fa-2x silver"></i></span>
+            </div>
+            <input type="text" class="form-control form-control-lg" aria-label="" name="brainstorm-search" id="search-input" placeholder="Search for ..."  autocomplete="off">
+            <div class="input-group-append" id="search-refresh-button">
+              <span class="input-group-text border-0"><i class="fa-solid fa-sync-alt opacity-half bright-blue fa-fw fa-2x pointer sm-del"></i></span>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="card"><img src="img/img2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4><strong class="trench-blue">People</strong></h4>
-              <p>Discover opportunities for working together and exploring how your projects might impact or benefit others' projects</p>
+      </form>
+    </div>
+    <!-- .col-sm-8 -->
 
-              <p class="mt-4 text-center"><a type="button" class="btn btn-primary text-light"><i class="fa-solid fa-eye fa-fw mr-2"></i>View</a></p>
+    <div class="row mt-5" id="people-div">
+
+      <!-- Write the cards into the page -->
+      <script id="all-the-people" type="text/template">
+
+<div class="row">
+        {{#people}}
+          <div class="card-container col-sm-12 col-md-6 col-lg-4 mb-5">
+            <div class="card shadow-sm border-0 {{{type}}}" data-url="{{{link}}}" data-target="{{target}}">
+              <img src="{{headshot}}" class="card-img-top" alt="Photo of {{name}}">
+              <div class="card-body" data-resource-type="{{{type}}}">
+                <h5 class="project-title"><a href="{{bio-link}}" target="{{bio-link-target}}">{{name}}</a></h5>
+                <p class="text-secondary">{{title}}<br>{{department}}</p>
+              </div>
+              <div class="card-footer bg-trench-blue text-light border-0">
+  <small>{{specializes}}</small>
+</div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="card"><img src="img/img3.jpg" class="card-img-top" alt="...">
-            <div class="card-body ">
-              <h4><strong class="trench-blue">Events</strong></h4>
-              <p>Build a strong community of folks through food and fellowship, including lunches, resource tours, and other events</p>
+        {{/people}}
+      </script>
 
-              <p class="mt-4 text-center"><a type="button" class="btn btn-primary text-light"><i class="fa-solid fa-eye fa-fw mr-2"></i>View</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
+    </div>
+    <!-- .row -->
 
 
   </div>
@@ -96,7 +96,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+  <!-- Mustache.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
+
   <script src="js/scripts.js"></script>
+  <script src="js/people.js"></script>
 
   <script>
     $(document).ready(function() {

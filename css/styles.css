@@ -22,7 +22,7 @@ body {
   background: #fafafa;
   color: var(--graphite);
   box-sizing: border-box;
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: 'Albert Sans', Arial, sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
   font-style: normal;
@@ -35,6 +35,14 @@ body {
 
 .trench-blue {
   color: var(--trench-blue);
+}
+
+.bright-blue {
+  color: var(--bright-blue);
+}
+
+.silver {
+  color: var(--silver);
 }
 
 /* backgrounds --------------------------- */
@@ -57,6 +65,10 @@ body {
 
 .mt-10 {
   margin-top: 5rem;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 /* Back to top button ------------------------- */
@@ -87,8 +99,9 @@ body {
 }
 
 #location-buttons .btn.active::before {
-  content: "✓ ";
+  content: "✓";
   color: aliceblue;
+  margin-right: .75rem;
 }
 
 /* Nav menu ---------------------------- */
@@ -123,4 +136,40 @@ body {
 
 .tooltip.bs-tooltip-top .arrow:before {
   display: none;
+}
+
+
+/* Search-box */
+#search-box {
+  margin-top: 3rem;
+  outline: none;
+  background: white;
+  padding: 1rem 1rem .25rem;
+  margin-bottom: 1.5rem;
+  /* border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important; */
+}
+
+#search-box input {
+  text-shadow: none !important;
+  outline: none;
+  color: var(--graphite);
+  border: none !important;
+  background: white !important;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.input-group-text {
+  background-color: white !important;
+}
+
+/* People page */
+#all-the-people .card-img-top {
+  height: 250px;
 }

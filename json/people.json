@@ -4,83 +4,221 @@
       "name": "Randy Harrison",
       "title": "Emerging Technologies Librarian",
       "department": "Hesburgh Libraries",
+      "email": "rharriso@nd.edu",
       "bio-link": "https://randalseanharrison.com",
       "bio-link-target": "_blank",
-      "headshot": "https://randalseanharrison.com/img/rsh.png",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/randy-harrison.png",
+      "specializes": "Communication and instruction design; Web and multimedia production"
     },
     {
       "name": "Steve Varela",
       "title": "Director, Teaching & Learning Technologies",
       "department": "",
+      "email": "svarela3@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "headshot": "",
       "specializes": "Communication design, Full-stack web development, Multimedia education"
     },
     {
-      "name": "Randy Harrison",
+      "name": "Adam Heet",
       "title": "Author",
       "department": "",
+      "email": "aheet@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "headshot": "",
       "specializes": "Communication design, Full-stack web development, Multimedia education"
     },
     {
-      "name": "Randy Harrison",
+      "name": "Andrew Craker",
       "title": "Author",
       "department": "",
+      "email": "acraker@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "headshot": "",
       "specializes": "Communication design, Full-stack web development, Multimedia education"
     },
     {
-      "name": "Randy Harrison",
+      "name": "Brian Burchett",
       "title": "Author",
       "department": "",
+      "email": "bburchet@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "headshot": "",
       "specializes": "Communication design, Full-stack web development, Multimedia education"
     },
     {
-      "name": "Randy Harrison",
+      "name": "Briana Stines",
       "title": "Author",
       "department": "",
+      "email": "",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "headshot": "",
       "specializes": "Communication design, Full-stack web development, Multimedia education"
     },
     {
-      "name": "Randy Harrison",
+      "name": "Charles Barbour",
       "title": "Author",
       "department": "",
+      "email": "cbarbour@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "headshot": "",
       "specializes": "Communication design, Full-stack web development, Multimedia education"
     },
     {
-      "name": "Randy Harrison",
+      "name": "Chas Grundy",
       "title": "Author",
       "department": "",
+      "email": "cgrundy1@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "headshot": "",
       "specializes": "Communication design, Full-stack web development, Multimedia education"
     },
     {
-      "name": "Randy Harrison",
+      "name": "Cheri Smith",
       "title": "Author",
       "department": "",
+      "email": "csmith@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "https://randalseanharrison.com/img/rsh.png",
+      "headshot": "",
       "specializes": "Communication design, Full-stack web development, Multimedia education"
     },
-
+    {
+      "name": "Donald Brower",
+      "title": "Author",
+      "department": "",
+      "email": "dbrower@nd.edu",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Elizabeth Lankford",
+      "title": "Author",
+      "department": "",
+      "email": "ezickgra@nd.edu",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Franklin Mark",
+      "title": "Author",
+      "department": "",
+      "email": "fmark@nd.edu",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Jim Spencer",
+      "title": "Author",
+      "department": "",
+      "email": "jspence4@nd.edu",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Julie Vecchio",
+      "title": "Author",
+      "department": "",
+      "email": "jvecchio@nd.edu",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Kael Kanczuzewski",
+      "title": "Author",
+      "department": "",
+      "email": "kkanczuz@nd.edu",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "KC Frye",
+      "title": "Author",
+      "department": "",
+      "email": "jfrye1@nd.edu",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Kuang Chen Hsu",
+      "title": "Author",
+      "department": "",
+      "email": "khsu1@nd.edu",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Michelle Johnson",
+      "title": "Author",
+      "department": "",
+      "email": "msorense@nd.edu",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Rick Johnson",
+      "title": "Author",
+      "department": "",
+      "email": "rjohns14@nd.edu",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Roberto Casarez",
+      "title": "Author",
+      "department": "",
+      "email": "rcasarez@nd.edu",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Sonia Howell",
+      "title": "Author",
+      "department": "",
+      "email": "showell3@nd.edu",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    },
+    {
+      "name": "Jade Liggett",
+      "title": "Author",
+      "department": "",
+      "email": "",
+      "bio-link": "link",
+      "bio-link-target": "_blank",
+      "headshot": "",
+      "specializes": "Communication design, Full-stack web development, Multimedia education"
+    }
   ]
 }

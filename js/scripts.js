@@ -16,7 +16,7 @@ $(document).ready(function() {
 
   // Jumbotron
   // Write the image to the jumbotron
-  $(".jumbotron").css("background", "linear-gradient(rgba(12, 35, 64, 0.5), rgba(12, 35, 64, 0.5)), url('img/jumbotron.jpg') no-repeat center center/cover");
+  $(".jumbotron").css("background", "linear-gradient(rgba(12, 35, 64, 0.6), rgba(12, 35, 64, 0.6)), url('img/jumbotron.jpg') no-repeat center center/cover");
 
   // Back to top button -- when the user scrolls down 20px from the top of the document, show the button
 
@@ -54,8 +54,8 @@ $(document).ready(function() {
   });
 
   // Redirect to URL on data-url attr and if has target = _self, then open in same window
-  $(document).on("click", "[data-url]", function() {
-    window.open($(this).attr("data-url"), $(this).attr('data-target'));
+  $(document).on("click", "[data-link]", function() {
+    window.open($(this).attr("data-link"), $(this).attr('data-target'));
   });
 
 });
