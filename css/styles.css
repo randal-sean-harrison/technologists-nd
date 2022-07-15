@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background: #fafafa;
+  background: #f5f5f5;
   color: var(--graphite);
   box-sizing: border-box;
   font-family: 'Albert Sans', Arial, sans-serif;
@@ -138,16 +138,14 @@ body {
   display: none;
 }
 
-
 /* Search-box */
 #search-box {
-  margin-top: 3rem;
+  margin-top: 5rem;
   outline: none;
   background: white;
-  padding: 1rem 1rem .25rem;
-  margin-bottom: 1.5rem;
-  /* border: none !important;
-  -webkit-box-shadow: none !important;
+  padding: 1rem 0 .25rem !important;
+  margin-bottom: 4rem;
+  /* -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
   box-shadow: none !important; */
 }
@@ -173,3 +171,5 @@ body {
 #all-the-people .card-img-top {
   height: 250px;
 }
+
+#what-we-do li::before {}

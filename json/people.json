@@ -8,57 +8,57 @@
       "bio-link": "https://randalseanharrison.com",
       "bio-link-target": "_blank",
       "headshot": "img/headshots/randy-harrison.png",
-      "specializes": "Communication and instruction design; Web and multimedia production"
+      "specialties": "Communication design, Computing, UX, Data storytelling"
     },
     {
       "name": "Steve Varela",
       "title": "Director, Teaching & Learning Technologies",
-      "department": "",
+      "department": "ND Learning",
       "email": "svarela3@nd.edu",
-      "bio-link": "link",
+      "bio-link": "https://studios.nd.edu/about/staff/?team=teaching-and-learning-technologies",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/steve-varela.png",
+      "specialties": ""
     },
     {
       "name": "Adam Heet",
-      "title": "Author",
-      "department": "",
+      "title": "Digital Projects Specialist",
+      "department": "Hesburgh Libraries",
       "email": "aheet@nd.edu",
-      "bio-link": "link",
+      "bio-link": "https://directory.library.nd.edu/directory/employees/aheet",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/adam-heet.png",
+      "specialties": ""
     },
     {
       "name": "Andrew Craker",
-      "title": "Author",
-      "department": "",
+      "title": "Learning Analytics Specialist",
+      "department": "ND Learning",
       "email": "acraker@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/andrew-craker.png",
+      "specialties": ""
     },
     {
       "name": "Brian Burchett",
-      "title": "Author",
-      "department": "",
+      "title": "Manager, Academic Technologies",
+      "department": "OIT",
       "email": "bburchet@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/brian-burchett.png",
+      "specialties": ""
     },
     {
-      "name": "Briana Stines",
-      "title": "Author",
-      "department": "",
-      "email": "",
-      "bio-link": "link",
+      "name": "Brianna Stines",
+      "title": "Learning Designer",
+      "department": "ND Learning",
+      "email": "bstines@nd.edu",
+      "bio-link": "https://learning.nd.edu/who-we-are/team-bios/brianna-stines/",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/Brianna-stines.png",
+      "specialties": ""
     },
     {
       "name": "Charles Barbour",
@@ -67,8 +67,8 @@
       "email": "cbarbour@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/not-pictured.png",
+      "specialties": ""
     },
     {
       "name": "Chas Grundy",
@@ -77,8 +77,8 @@
       "email": "cgrundy1@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/chas-grundy.png",
+      "specialties": ""
     },
     {
       "name": "Cheri Smith",
@@ -87,8 +87,8 @@
       "email": "csmith@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/cheri-smith.png",
+      "specialties": ""
     },
     {
       "name": "Donald Brower",
@@ -97,28 +97,28 @@
       "email": "dbrower@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/don-brower.png",
+      "specialties": ""
     },
     {
-      "name": "Elizabeth Lankford",
-      "title": "Author",
-      "department": "",
-      "email": "ezickgra@nd.edu",
+      "name": "Crystal DeJaegher",
+      "title": "EMS Process Improvement Lead",
+      "department": "Notre Dame Learning",
+      "email": "cyakym@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/crystal-dejaegher.png",
+      "specialties": ""
     },
     {
-      "name": "Franklin Mark",
-      "title": "Author",
+      "name": "Eric Nisly",
+      "title": "Senior Systems & Lead Streaming Engineer",
       "department": "",
-      "email": "fmark@nd.edu",
+      "email": "dbrower@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/eric-nisly.png",
+      "specialties": ""
     },
     {
       "name": "Jim Spencer",
@@ -127,8 +127,8 @@
       "email": "jspence4@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/jim-spencer.png",
+      "specialties": ""
     },
     {
       "name": "Julie Vecchio",
@@ -137,8 +137,8 @@
       "email": "jvecchio@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/julie-vecchio.png",
+      "specialties": ""
     },
     {
       "name": "Kael Kanczuzewski",
@@ -147,48 +147,38 @@
       "email": "kkanczuz@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/kael-kanczuzewski.png",
+      "specialties": ""
     },
     {
       "name": "KC Frye",
-      "title": "Author",
-      "department": "",
+      "title": "Director of Creative & Media",
+      "department": "ND Learning",
       "email": "jfrye1@nd.edu",
-      "bio-link": "link",
+      "bio-link": "https://learning.nd.edu/who-we-are/team-bios/kc-frye/",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/kc-frye.png",
+      "specialties": ""
     },
     {
-      "name": "Kuang Chen Hsu",
-      "title": "Author",
-      "department": "",
+      "name": "Kuang-Chen Hsu",
+      "title": "Learning Designer",
+      "department": "ND Learning",
       "email": "khsu1@nd.edu",
-      "bio-link": "link",
+      "bio-link": "https://learning.nd.edu/who-we-are/team-bios/kuan-ghen-kunag-hsu/",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
-    },
-    {
-      "name": "Michelle Johnson",
-      "title": "Author",
-      "department": "",
-      "email": "msorense@nd.edu",
-      "bio-link": "link",
-      "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/kuang-hsu.png",
+      "specialties": ""
     },
     {
       "name": "Rick Johnson",
-      "title": "Author",
-      "department": "",
+      "title": "Managing Director, AETL",
+      "department": "Lucy Family Institute",
       "email": "rjohns14@nd.edu",
-      "bio-link": "link",
+      "bio-link": "https://lucyinstitute.nd.edu/people/leadership-team/rick-johnson/",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/rick-johnson.png",
+      "specialties": ""
     },
     {
       "name": "Roberto Casarez",
@@ -197,28 +187,28 @@
       "email": "rcasarez@nd.edu",
       "bio-link": "link",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/roberto-casarez.png",
+      "specialties": ""
     },
     {
       "name": "Sonia Howell",
-      "title": "Author",
-      "department": "",
+      "title": "Director of Programs & Operations",
+      "department": "ND Learning",
       "email": "showell3@nd.edu",
-      "bio-link": "link",
+      "bio-link": "https://learning.nd.edu/who-we-are/team-bios/provide-managerial-and-administrative-oversight-for-the-summer-online-program-sonia-howell/",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/sonia-howell.png",
+      "specialties": ""
     },
     {
       "name": "Jade Liggett",
-      "title": "Author",
-      "department": "",
-      "email": "",
-      "bio-link": "link",
+      "title": "Learning Designer",
+      "department": "ND Learning",
+      "email": "jligget2@nd.edu",
+      "bio-link": "https://learning.nd.edu/who-we-are/team-bios/jade-liggett/",
       "bio-link-target": "_blank",
-      "headshot": "",
-      "specializes": "Communication design, Full-stack web development, Multimedia education"
+      "headshot": "img/headshots/jade-liggett.png",
+      "specialties": ""
     }
   ]
 }
